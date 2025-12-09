@@ -1,6 +1,7 @@
-🛍️ Customer Shopping Behavior Analysis
+#🛍️ Customer Shopping Behavior Analysis
 A Data Analytics Project using Python, SQL, and Power BI
-📌 Project Overview
+
+#📌 Project Overview
 
 This project provides a complete analysis of 3,900 customer shopping transactions to understand purchasing behavior, product performance, demographic trends, and the impact of discounts and subscriptions.
 
@@ -15,7 +16,8 @@ Using Python, PostgreSQL, and Power BI, the project follows a full analytics wor
 
 This repository demonstrates strong skills in data analytics, business intelligence, SQL querying, feature engineering, and data storytelling.
 
-🧹 1. Data Preparation & Cleaning (Python)
+
+#🧹 1. Data Preparation & Cleaning (Python)
 
 Performed comprehensive data preprocessing:
 
@@ -29,6 +31,7 @@ Removed duplicates & corrected inconsistent values
 
 Cleaned string formatting and category labels
 
+
 ✨ Feature Engineering
 
 Created age_group using quantile-based binning
@@ -39,13 +42,15 @@ Dropped redundant fields such as promo_code_used
 
 Generated customer segmentation features
 
-🛢️ Database Integration
+
+#🛢️ Database Integration
 
 The cleaned dataset was loaded into a PostgreSQL database using SQLAlchemy for structured analysis.
 
 Notebook: notebooks/EDA_and_Cleaning.ipynb
 
-🛢️ 2. SQL Business Analysis (PostgreSQL)
+
+#🛢️ 2. SQL Business Analysis (PostgreSQL)
 
 Key insights were extracted using optimized SQL queries:
 
@@ -73,7 +78,7 @@ Revenue contribution by age group
 
 All queries: sql/business_queries.sql
 
-📊 3. Power BI Dashboard
+#📊 3. Power BI Dashboard
 
 A dynamic dashboard was created to visualize insights clearly and interactively.
 
@@ -89,7 +94,8 @@ Customer Segmentation
 
 File: powerbi/dashboard.pbix
 
-📈 4. Key Insights
+#📈 4. Key Insights
+
 🧑‍🤝‍🧑 Customer Behavior
 
 Adults and middle-aged groups generate the highest revenue
@@ -112,7 +118,8 @@ Certain categories consistently receive higher ratings
 
 Best sellers can be better promoted in marketing campaigns
 
-🚀 5. Business Recommendations
+#🚀 5. Business Recommendations
+
 📌 Increase Subscription Adoption
 
 Exclusive offers
